@@ -34,8 +34,8 @@ import java.util.Optional;
 
 @Model(adaptables = Resource.class)
 public class HelloWorldModel {
-//ucommented
-    public static final String PASSWORD="pass";
+
+//    public static final String PASSWORD="pass";
 
     @ValueMapValue(name = PROPERTY_RESOURCE_TYPE, injectionStrategy = InjectionStrategy.OPTIONAL)
     @Default(values = "No resourceType")
